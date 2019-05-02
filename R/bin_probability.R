@@ -1,6 +1,11 @@
 #' @title bin_probability
-#' 
-#' 
+#' @description uses the bin_choose() function to calculate that probability of getting a number of successes in a number of trials
+#' @param success number of success
+#' @param trials number of trials
+#' @param prob probability of success
+#' @return the probability or list of probabilities
+#' @export
+#' @examples 
 #' 
 bin_probability <- function(success, trials, prob){
   check_trials(trials)

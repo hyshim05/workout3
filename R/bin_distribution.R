@@ -47,6 +47,6 @@ check_success <- function(success, trials){
 }
 
 #' @export
-plot.bindis <- function(x){
+plot.bindis <- function(x, ...){
   barplot(x$probability, xlab = "successes", ylab = "probability", names.arg = x$success)
 }
